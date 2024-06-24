@@ -7,3 +7,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 - Initial release
+
+## 0.2.0
+
+### Changed
+
+- JSON property name and punctuation color change to `#524c00`
+- Change the color of the following token types and modifiers to `#7F0055`
+  - [VSCODE-CUSTOM] JS/TS Default Keyword
+  - [VSCODE-CUSTOM] JS/TS Module Exports
+  - Source Ts Keyword Operator
+  - [VSCODE-CUSTOM] TS Keyword Operator
+  - Keyword Other Special Method

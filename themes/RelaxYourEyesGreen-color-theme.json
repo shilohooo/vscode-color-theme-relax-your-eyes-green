@@ -114,7 +114,7 @@
     {
       "name": "Keyword Other Special Method",
       "scope": ["keyword.other.special-method"],
-      "settings": { "foreground": "#4078F2" }
+      "settings": { "foreground": "#7f0055", "fontStyle": "bold" }
     },
     {
       "name": "Keyword Other Unit",
@@ -139,7 +139,7 @@
     {
       "name": "Constant",
       "scope": ["constant"],
-      // "settings": { "foreground": "#ff8000", "fontStyle": "bold" }
+      "settings": { "foreground": "#ff8000", "fontStyle": "bold" }
     },
     {
       "name": "Constant Variable",
@@ -521,7 +521,7 @@
     {
       "name": "Source Gfm Markup",
       "scope": ["source.gfm markup"],
-      "settings": { }
+      "settings": {}
     },
     {
       "name": "Source Gfm Link Entity",
@@ -584,7 +584,7 @@
     {
       "name": "Source Ts Keyword Operator",
       "scope": ["source.ts keyword.operator"],
-      "settings": { "foreground": "#333333" }
+      "settings": { "foreground": "#7F0055", "fontStyle": "bold" }
     },
     {
       "name": "Source Flow Keyword Operator",
@@ -722,12 +722,12 @@
     {
       "name": "[VSCODE-CUSTOM] JSON Property Name",
       "scope": "support.type.property-name.json",
-      "settings": { "foreground": "#E45649" }
+      "settings": { "foreground": "#524c00" }
     },
     {
       "name": "[VSCODE-CUSTOM] JSON Punctuation for Property Name",
       "scope": "support.type.property-name.json punctuation",
-      "settings": { "foreground": "#E45649" }
+      "settings": { "foreground": "#524c00" }
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Punctuation for key-value",
@@ -819,7 +819,7 @@
         "keyword.control.default.ts",
         "keyword.control.default.tsx"
       ],
-      "settings": { "foreground": "#E45649" }
+      "settings": { "foreground": "#7F0055", "fontStyle": "bold" }
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Instanceof Keyword",
@@ -911,7 +911,7 @@
     {
       "name": "[VSCODE-CUSTOM] TS Keyword Operator",
       "scope": ["source.ts keyword.operator", "source.tsx keyword.operator"],
-      "settings": { "foreground": "#333333" }
+      "settings": { "foreground": "#7F0055", "fontStyle": "bold" }
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Punctuation Parameter Separator",
@@ -1063,7 +1063,7 @@
         "support.type.object.module.ts",
         "support.type.object.module.tsx"
       ],
-      "settings": { "foreground": "#E45649" }
+      "settings": { "foreground": "#7F0055", "fontStyle": "bold" }
     },
     {
       "name": "[VSCODE-CUSTOM] JSON Constants",
