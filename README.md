@@ -19,3 +19,7 @@ A VSCode color theme that works to relieve eyestrain:)
 ## Thanks
 
 - [Relax Your Eyes Green - ThemesMap](http://www.themesmap.com/details.html?id=56af4d27333ecc1800c392b3)
+
+## LICENSE
+
+[MIT](./LICENSE)
