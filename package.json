@@ -1,0 +1,25 @@
+{
+  "name": "relax-your-eyes-green",
+  "displayName": "Relax Your Eyes Green",
+  "description": "A VSCode color theme that works to relieve eyestrain:)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "publisher": "shilohooo",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Relax Your Eyes Green",
+        "uiTheme": "vs",
+        "path": "./themes/RelaxYourEyesGreen-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "url": "https://github.com/shilohooo/vscode-color-theme-relax-your-eyes-green"
+  }
+}
