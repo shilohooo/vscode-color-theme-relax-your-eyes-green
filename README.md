@@ -1,8 +1,8 @@
-# Relax Your Eyes Green
+# 👁️ Relax Your Eyes Green
 
 A VSCode color theme that works to relieve eyestrain:)
 
-## NOTE
+## ❗ NOTE
 
 Work in Progress：The plugin is currently in continuous development - (When I have a free night)
 
@@ -13,7 +13,7 @@ Currently only available in the following languages or frameworks:
 - TypeScript
 - Vue
 
-## Screenshots
+## 📸 Screenshots
 
 ### HTML
 
@@ -27,11 +27,17 @@ Currently only available in the following languages or frameworks:
 
 ![TypeScript](./assets/color-theme-screenshots-ts.png)
 
-## Thanks
+## 🎉 Thanks
 
 - [Relax Your Eyes Green - ThemesMap](http://www.themesmap.com/details.html?id=56af4d27333ecc1800c392b3)
 - [Atom One Light Theme](https://github.com/akamud/vscode-theme-onelight)
 
-## LICENSE
+## 💡 Tips
+
+If you are using JetBrains IDE in your development, such as IntelliJ IDEA, WebStorm, DataGrip, etc...
+
+You can find the Color Theme Plugin developed by [Nisus-Liu here](https://plugins.jetbrains.com/plugin/20163-relax-your-eyes-green-theme), which is useful for relieving eyestrain:)
+
+## 🔖 LICENSE
 
 [MIT](./LICENSE)
