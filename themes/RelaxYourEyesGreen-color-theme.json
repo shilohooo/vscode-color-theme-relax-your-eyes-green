@@ -281,6 +281,11 @@
       "settings": { "foreground": "#170591", "fontStyle": "bold" }
     },
     {
+      "name": "Entity Name Command Shell",
+      "scope": ["entity.name.command.shell"],
+      "settings": { "foreground": "#7F0055", "fontStyle": "bold" }
+    },
+    {
       "name": "Entity Name Class,entity Name Type Class",
       "scope": ["entity.name.class", "entity.name.type.class"],
       "settings": { "foreground": "#2462FF", "fontStyle": "bold" }
@@ -369,6 +374,11 @@
       "name": "Invalid Illegal",
       "scope": ["invalid.illegal"],
       "settings": { "foreground": "#ffffff" }
+    },
+    {
+      "name": "Invalid Illegal HTML Bracket",
+      "scope": ["invalid.illegal.bad-angle-bracket.html"],
+      "settings": { "foreground": "#000000" }
     },
     {
       "name": "Markup Bold",
@@ -536,7 +546,7 @@
     {
       "name": "Source Ini Keyword Other Definition Ini",
       "scope": ["source.ini keyword.other.definition.ini"],
-      "settings": { "foreground": "#E45649" }
+      "settings": { "foreground": "#7F0055", "fontStyle": "bold" }
     },
     {
       "name": "Source Java Storage Modifier Import",
@@ -579,7 +589,7 @@
         "source.js keyword.operator.typeof",
         "source.js keyword.operator.void"
       ],
-      "settings": { "foreground": "#A626A4" }
+      "settings": { "foreground": "#7F0055", "fontStyle": "bold" }
     },
     {
       "name": "Source Ts Keyword Operator",
@@ -837,7 +847,7 @@
         "keyword.operator.expression.of.ts",
         "keyword.operator.expression.of.tsx"
       ],
-      "settings": { "foreground": "#A626A4" }
+      "settings": { "foreground": "#7F0055", "fontStyle": "bold" }
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Braces/Brackets",
@@ -852,7 +862,7 @@
         "meta.array-binding-pattern-variable.tsx",
         "meta.brace.square.tsx"
       ],
-      "settings": { "foreground": "#383A42" }
+      "settings": { "foreground": "#000066" }
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Punctuation Accessor",
@@ -906,7 +916,17 @@
         "keyword.operator.new.j",
         "keyword.operator.new.tsx"
       ],
-      "settings": { "foreground": "#A626A4" }
+      "settings": { "foreground": "#7F0055", "fontStyle": "bold" }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] JS/TS Keyword Operator Assignment",
+      "scope": [
+        "keyword.operator.assignment.ts",
+        "keyword.operator.assignment.js",
+        "keyword.operator.assignment.tsx",
+        "keyword.operator.assignment.jsx"
+      ],
+      "settings": { "foreground": "#333333", "fontStyle": "" }
     },
     {
       "name": "[VSCODE-CUSTOM] TS Keyword Operator",

@@ -8,7 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 
-## 0.2.0
+## 0.2.0 - 2024-06-24
 
 ### Changed
 
@@ -19,3 +19,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - Source Ts Keyword Operator
   - [VSCODE-CUSTOM] TS Keyword Operator
   - Keyword Other Special Method
+
+## 0.3.0 - 2024-06-27
+
+### Added
+
+- Define new token colors in following scopes:
+  - `invalid.illegal.bad-angle-bracket.html`
+  - `entity.name.command.shell`
+
+### Changed
+
+- Some keyword color change to `#7F0055`
