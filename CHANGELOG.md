@@ -38,7 +38,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Define Css/Less/Scss braces & brackets color
 - Define Css/Less/Scss class & id selector color
-- Define Css/Less/Scss property name Selector color
+- Define Css/Less/Scss property name selector color
 
 ### Changed
 
