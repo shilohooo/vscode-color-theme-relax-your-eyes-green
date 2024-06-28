@@ -31,3 +31,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Changed
 
 - Some keyword color change to `#7F0055`
+
+## 0.4.0 - 2024-06-28
+
+### Added
+
+- Define Css/Less/Scss braces & brackets color
+- Define Css/Less/Scss class & id selector color
+- Define Css/Less/Scss property name Selector color
+
+### Changed
+
+- Css unit color change to `#000000`
