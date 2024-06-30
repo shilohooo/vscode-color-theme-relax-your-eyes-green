@@ -32,7 +32,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Some keyword color change to `#7F0055`
 
-## 0.4.0 - 2024-06-28
+## 0.4.0 - 2024-06-30
 
 ### Added
 
