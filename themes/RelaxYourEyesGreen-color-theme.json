@@ -83,7 +83,12 @@
     },
     {
       "name": "Block Comment",
-      "scope": ["comment.block.js", "comment.block.ts"],
+      "scope": [
+        "comment.block.js",
+        "comment.block.jsx punctuation.definition.comment.jsx",
+        "comment.block.ts",
+        "comment.block.tsx punctuation.definition.comment.tsx"
+      ],
       "settings": { "foreground": "#4E4E4E", "fontStyle": "" }
     },
     {
@@ -118,13 +123,15 @@
         "meta.interface.ts",
         "meta.enum.declaration.ts",
         "storage.type.js",
+        "storage.type.jsx",
         "storage.type.ts",
+        "storage.type.tsx",
         "storage.type.function.js",
         "storage.type.function.ts",
         "storage.modifier.async.js",
         "storage.modifier.async.ts",
         "constant.language.boolean",
-        "support.type.primitive",
+        "support.type.primitive"
       ],
       "settings": { "foreground": "#7F0055", "fontStyle": "bold" }
     },
@@ -203,11 +210,11 @@
     //   "scope": ["variable.interpolation"],
     //   "settings": { "foreground": "#CA1243" }
     // },
-    // {
-    //   "name": "Variable Parameter",
-    //   "scope": ["variable.parameter"],
-    //   "settings": { "foreground": "#383A42" }
-    // },
+    {
+      "name": "Variable Parameter",
+      "scope": ["variable.parameter"],
+      "settings": { "foreground": "#000000" }
+    },
     {
       "name": "String",
       "scope": ["string"],
@@ -240,9 +247,7 @@
     // },
     {
       "name": "Punctuation Definition",
-      "scope": [
-        "punctuation.definition",
-      ],
+      "scope": ["punctuation.definition"],
       "settings": { "foreground": "#000066", "fontStyle": "" }
     },
     // {
@@ -363,7 +368,9 @@
       "name": "Meta Function Call",
       "scope": [
         "meta.function-call.js",
-        "meta.function-call.ts"
+        "meta.function-call.jx",
+        "meta.function-call.ts",
+        "meta.function-call.tsx"
       ],
       "settings": {
         "foreground": "#914C07",
@@ -375,16 +382,25 @@
       "scope": [
         "meta.definition.variable",
         "meta.block.ts",
+        "meta.block.js variable.other.object.js",
+        "meta.block.jsx variable.other.object.jsx",
         "meta.block.ts variable.other.object.ts",
-        "meta.var.expr.ts variable.other.object.ts",
+        "meta.block.tsx variable.other.object.tsx",
+        "meta.var.expr.ts variable.other.object.ts"
       ],
       "settings": { "foreground": "#458383", "fontStyle": "" }
     },
     {
-      "name": "Meta Definition Function",
+      "name": "Meta Definition Function/Method",
       "scope": [
         "meta.definition.function.js",
-        "meta.definition.function.ts"
+        "meta.definition.method.js",
+        "meta.definition.function.jsx",
+        "meta.definition.method.jsx",
+        "meta.definition.function.ts",
+        "meta.definition.method.ts",
+        "meta.definition.function.tsx",
+        "meta.definition.method.tsx"
       ],
       "settings": { "foreground": "#170591", "fontStyle": "bold" }
     },
@@ -846,9 +862,14 @@
         "source.directive.vue variable.other.object.js",
         "source.directive.vue variable.other.property.js",
         "variable.other.constant.property.js",
+        "variable.other.property.js",
+        "variable.other.property.jsx",
         "variable.other.property.ts",
+        "variable.other.property.tsx",
         "variable.other.object.property.js",
+        "variable.other.object.property.jsx",
         "variable.other.object.property.ts",
+        "variable.other.object.property.tsx"
       ],
       "settings": { "foreground": "#524c00", "fontStyle": "" }
     },
@@ -1055,6 +1076,23 @@
       ],
       "settings": { "foreground": "#333333", "fontStyle": "" }
     },
+    {
+      "name": "[VSCODE-CUSTOM] JS/TS Import Variable",
+      "scope": [
+        "meta.import.js",
+        "meta.import.jsx",
+        "meta.import.js variable.other.readwrite.alias.js",
+        "meta.import.jsx variable.other.readwrite.alias.jsx",
+        "meta.import.ts",
+        "meta.import.tsx",
+        "meta.import.ts variable.other.readwrite.alias.ts",
+        "meta.import.tsx variable.other.readwrite.alias.tsx"
+      ],
+      "settings": {
+        "foreground": "#660E7A",
+        "fontStyle": "italic bold"
+      }
+    },
     // {
     //   "name": "[VSCODE-CUSTOM] JS/TS Constants",
     //   "scope": [
@@ -1219,10 +1257,7 @@
     // },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Variable Other Object",
-      "scope": [
-        "variable.other.object.js",
-         "variable.other.object.ts",
-      ],
+      "scope": ["variable.other.object.js", "variable.other.object.ts"],
       "settings": { "foreground": "#660E7A", "fontStyle": "bold" }
     },
     {
@@ -1230,11 +1265,16 @@
       "scope": ["variable.other.enummember.ts"],
       "settings": { "foreground": "#05314D", "fontStyle": "bold" }
     },
-    // {
-    //   "name": "[VSCODE-CUSTOM] JS/TS Meta Object Literal Key",
-    //   "scope": ["meta.object-literal.key.js", "meta.object-literal.key.ts"],
-    //   "settings": { "foreground": "#E45649" }
-    // },
+    {
+      "name": "[VSCODE-CUSTOM] JS/TS Meta Object Literal Key",
+      "scope": [
+        "meta.object-literal.key.js",
+        "meta.object-literal.key.jsx",
+        "meta.object-literal.key.ts",
+        "meta.object-literal.key.tsx"
+      ],
+      "settings": { "foreground": "#524c00" }
+    }
     // {
     //   "name": "[VSCODE-CUSTOM] Python Constants Other",
     //   "scope": "source.python constant.other",
