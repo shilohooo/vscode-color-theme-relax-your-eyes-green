@@ -43,3 +43,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Changed
 
 - Css unit color change to `#000000`
+
+## 0.5.0 - 2024-08-15
+
+### Added
+
+- Define block comment & doc color
+- Compatible with JSX & TSX
