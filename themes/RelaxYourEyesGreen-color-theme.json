@@ -78,15 +78,23 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment"],
+      "scope": [
+        "comment",
+        "comment.line.double-slash punctuation.definition.comment",
+        "punctuation.definition.comment.json.comments"
+      ],
       "settings": { "foreground": "#424600", "fontStyle": "" }
     },
     {
       "name": "Block Comment",
       "scope": [
         "comment.block.js",
+        "comment.block.jsx",
+        "comment.block.jsx punctuation.definition.comment.js",
         "comment.block.jsx punctuation.definition.comment.jsx",
         "comment.block.ts",
+        "comment.block.tsx",
+        "comment.block.ts punctuation.definition.comment.ts",
         "comment.block.tsx punctuation.definition.comment.tsx"
       ],
       "settings": { "foreground": "#4E4E4E", "fontStyle": "" }
@@ -96,7 +104,14 @@
       "scope": [
         "entity.name.type.instance.jsdoc",
         "comment.block.documentation.js",
-        "comment.block.documentation.ts"
+        "punctuation.definition.block.tag.jsdoc",
+        "comment.block.documentation.js punctuation.definition.comment",
+        "comment.block.documentation.jsx",
+        "comment.block.documentation.jsx punctuation.definition.comment",
+        "comment.block.documentation.ts",
+        "comment.block.documentation.ts punctuation.definition.comment",
+        "comment.block.documentation.tsx",
+        "comment.block.documentation.tsx punctuation.definition.comment",
       ],
       "settings": { "foreground": "#395DA1", "fontStyle": "" }
     },
@@ -131,6 +146,15 @@
         "storage.modifier.async.js",
         "storage.modifier.async.ts",
         "constant.language.boolean",
+        "support.function.misc.css",
+        "support.function.misc.less",
+        "support.function.misc.scss",
+        "constant.other.color.rgb-value.hex.css",
+        "constant.other.color.rgb-value.hex.less",
+        "constant.other.color.rgb-value.hex.scss",
+        "support.constant.color.w3c-standard-color-name.css",
+        "support.constant.color.w3c-standard-color-name.less",
+        "support.constant.color.w3c-standard-color-name.scss",
         "support.type.primitive"
       ],
       "settings": { "foreground": "#7F0055", "fontStyle": "bold" }
@@ -344,11 +368,14 @@
       "scope": ["entity.other.attribute-name"],
       "settings": { "foreground": "#000066", "fontStyle": "" }
     },
-    // {
-    //   "name": "Entity Other Attribute Name Id",
-    //   "scope": ["entity.other.attribute-name.id"],
-    //   "settings": { "foreground": "#4078F2" }
-    // },
+    {
+      "name": "Entity Other Attribute Name Class/Id",
+      "scope": [
+        "entity.other.attribute-name.class",
+        "entity.other.attribute-name.id",
+      ],
+      "settings": { "foreground": "#7f0055", "fontStyle": "bold" }
+    },
     // {
     //   "name": "Meta Class",
     //   "scope": ["meta.class"],
@@ -809,6 +836,15 @@
     //   "scope": "support.type.property-name",
     //   "settings": { "foreground": "#383A42" }
     // },
+    {
+      "name": "[VSCODE-CUSTOM] Support Type Property Name Css/Less/Sass",
+      "scope": [
+        "support.type.property-name.css",
+        "support.type.property-name.less",
+        "support.type.property-name.scss",
+      ],
+      "settings": { "foreground": "#000066" }
+    },
     // {
     //   "name": "[VSCODE-CUSTOM] Punctuation for Quoted String",
     //   "scope": "string.quoted.double punctuation",
@@ -1140,16 +1176,16 @@
     //   "scope": "meta.class.js,meta.class.ts,meta.class.jsx,meta.class.tsx",
     //   "settings": { "foreground": "#383A42" }
     // },
-    // {
-    //   "name": "[VSCODE-CUSTOM] JS/TS Property Definition Variable",
-    //   "scope": [
-    //     "meta.definition.property.js variable",
-    //     "meta.definition.property.ts variable",
-    //     "meta.definition.property.jsx variable",
-    //     "meta.definition.property.tsx variable"
-    //   ],
-    //   "settings": { "foreground": "#383A42" }
-    // },
+    {
+      "name": "[VSCODE-CUSTOM] JS/TS Property Definition Property",
+      "scope": [
+        "meta.definition.property.js",
+        "meta.definition.property.ts",
+        "meta.definition.property.jsx",
+        "meta.definition.property.tsx"
+      ],
+      "settings": { "foreground": "#524c00", "fontStyle": "" }
+    },
     // {
     //   "name": "[VSCODE-CUSTOM] JS/TS Meta Type Parameters Type",
     //   "scope": [
