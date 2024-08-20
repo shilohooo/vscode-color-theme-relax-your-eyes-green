@@ -50,3 +50,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Define block comment & doc color
 - Compatible with JSX & TSX
+
+## 0.6.0 - 2024-08-20
+
+### Changed
+
+- Line comment double slash color change to `#424600`
+- Block comment color in ts/tsx & js/jsx change to `#4e4e4e`
+- All JsDoc color is set to `#395da1`
+- Set the CSS/LESS/SASS selector color match the keywords
+- CSS/LESS/SASS property name color change to `#000066`
+- Typescript field definitions for types or interfaces is changed to `524c00`
