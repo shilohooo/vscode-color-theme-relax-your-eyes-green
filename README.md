@@ -13,6 +13,10 @@ Currently only available in the following languages or frameworks:
 - TypeScript
 - Vue
 
+## 📦 Installation
+
+This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=shiloh.relax-your-eyes-green)
+
 ## 📸 Screenshots
 
 ### HTML
