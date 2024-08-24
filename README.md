@@ -18,19 +18,51 @@ Currently only available in the following languages or frameworks:
 
 This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=shiloh.relax-your-eyes-green)
 
+### Manual
+
+Download the .vsix file from the [release page](https://github.com/shilohooo/vscode-color-theme-relax-your-eyes-green/releases) to install it
+
 ## 📸 Screenshots
 
-### HTML
+<details>
+
+<summary>HTML</summary>
 
 ![HTML](./assets/color-theme-screenshots-html.png)
 
-### Vue
+</details>
+
+<details>
+
+<summary>CSS</summary>
+
+![CSS](./assets/color-theme-screenshots-css.png)
+
+</details>
+
+<details>
+
+<summary>JavaScript</summary>
+
+![JavaScript](./assets/color-theme-screenshots-js.png)
+
+</details>
+
+<details>
+
+<summary>TypeScript</summary>
+
+![TypeScript](./assets/color-theme-screenshots-ts.png)
+
+</details>
+
+<details>
+
+<summary>Vue</summary>
 
 ![Vue](./assets/color-theme-screenshots-vue.png)
 
-### TypeScript
-
-![TypeScript](./assets/color-theme-screenshots-ts.png)
+</details>
 
 ## 🎉 Thanks
 
