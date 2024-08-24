@@ -155,7 +155,13 @@
         "support.constant.color.w3c-standard-color-name.css",
         "support.constant.color.w3c-standard-color-name.less",
         "support.constant.color.w3c-standard-color-name.scss",
-        "support.type.primitive"
+        "support.type.primitive",
+        "constant.language.null.js",
+        "constant.language.undefined.js",
+        "constant.language.undefined.jsx",
+        "constant.language.null.ts",
+        "constant.language.undefined.ts",
+        "constant.language.undefined.tsx",
       ],
       "settings": { "foreground": "#7F0055", "fontStyle": "bold" }
     },
@@ -542,8 +548,15 @@
     //   "settings": { "foreground": "#A626A4" }
     // },
     {
-      "name": "Css/Less/Sass Property Name",
-      "scope": ["meta.property-name.css"],
+      "name": "Css/Less/Sass Property Name/List",
+      "scope": [
+        "meta.property-name.css",
+        "meta.property-name.scss",
+        "meta.property-name.less",
+        "meta.property-list.css",
+        "meta.property-list.scss",
+        "meta.property-list.less"
+      ],
       "settings": {
         "foreground": "#000066",
         "fontStyle": ""
@@ -551,7 +564,11 @@
     },
     {
       "name": "Css/Less/Sass Property Value",
-      "scope": ["meta.property-value.css"],
+      "scope": [
+        "meta.property-value.css",
+        "meta.property-value.less",
+        "meta.property-value.scss",
+      ],
       "settings": {
         "foreground": "#000000",
         "fontStyle": "bold"

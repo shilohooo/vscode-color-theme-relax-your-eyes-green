@@ -61,3 +61,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Set the CSS/LESS/SASS selector color match the keywords
 - CSS/LESS/SASS property name color change to `#000066`
 - Typescript field definitions for types or interfaces is changed to `524c00`
+
+## 0.7.0 - 2024-08-24
+
+### Changed
+
+- The colors of the following tokens have been changed
+  - `undefined` & `null`
+  - Less/Sass property name
+  - Less/Sass property value
