@@ -9,6 +9,7 @@ Work in Progress：The plugin is currently in continuous development - (When I h
 Currently only available in the following languages or frameworks:
 
 - HTML
+- CSS
 - JavaScript
 - TypeScript
 - Vue
