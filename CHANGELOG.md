@@ -70,3 +70,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - `undefined` & `null`
   - Less/Sass property name
   - Less/Sass property value
+
+## 0.8.0 - 2024-08-27
+
+### Changed
+
+- change editor inlay hint bg color to `#ddeadd`
