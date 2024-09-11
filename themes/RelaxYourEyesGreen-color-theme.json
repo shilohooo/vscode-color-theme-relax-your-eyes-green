@@ -122,7 +122,10 @@
     // },
     {
       "name": "Entity Name Type",
-      "scope": ["entity.name.type"],
+      "scope": [
+        "entity.name.type",
+        "entity.other.inherited-class.ts"
+      ],
       "settings": { "foreground": "#3E7EFF", "fontStyle": "bold" }
     },
     // {
@@ -162,6 +165,10 @@
         "constant.language.null.ts",
         "constant.language.undefined.ts",
         "constant.language.undefined.tsx",
+        "storage.type.class",
+        "storage.modifier",
+        "variable.language.this",
+        "variable.language.super"
       ],
       "settings": { "foreground": "#7F0055", "fontStyle": "bold" }
     },

@@ -4,6 +4,16 @@ All notable changes to the "relax-your-eyes-green" extension will be documented 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.9.0 - 2024-09-11
+
+### Changed
+
+- change inherit class/interface color to `#3e7eff`
+- change following keywords color to `#7F0055`
+  - this
+  - super
+  - extends
+
 ## 0.8.0 - 2024-08-27
 
 ### Changed
